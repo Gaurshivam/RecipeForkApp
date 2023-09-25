@@ -1,0 +1,68 @@
+.Input{
+    margin: 20px;
+}
+
+.Input > input {
+    padding: 10px;
+    width: 60vw;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Input >button{
+    padding: 10px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Card{
+    box-shadow: 0px 0px 5px black;
+    height: 360px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.Card > img {
+    border-top-right-radius:10px ;
+    border-top-left-radius:10px ;
+}
+.content > p{
+    height: 20px;
+    overflow: hidden;
+}
+
+.content > h3{
+    color: brown;
+}
+
+.CardBtn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn1{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+
+
+.btn2{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+

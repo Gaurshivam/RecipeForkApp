@@ -1,0 +1,51 @@
+.HomeContainer{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.HomeImage{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:90vh;
+}
+
+.HomeContent{
+    max-width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    letter-spacing: .3rem;
+}
+.HomeContent  button{
+    background-color: rgb(39, 102, 128);
+    box-shadow: 0px 0px 10px black;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: brown;
+    color: white;
+}
+
+.HomeContent> h2{
+    font-size: 3.4rem;
+
+}
+
+h2:hover{
+    color: blueviolet;
+}
+
